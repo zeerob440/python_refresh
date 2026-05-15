@@ -12,7 +12,7 @@
 
 # CREATE DIRECTORY
 	
-	create a directory (Git Bash uses PowerShell commands)
+	create a directory (Git Bash uses PowerShellish commands)
 	
 	mkdir 'project_directory_name'
 	
@@ -41,35 +41,40 @@
 
 	ls -la 
 	
-	#returns all files in the project.
-	
-8. CODE FILES WITH 'code .' (CODE ALL)
+	// returns all files in the project.
+
+8. OPEN IDE 'code .' (CODE ALL)
 
 	code .
 	// this opens the code editor where files can be built
-	// save the files in the IDE
+	// save the files in the IDE	
 	
-9. CHECK IF PROGRAM RUNS
+9. UPDATE FILES IN IDE 
+	!SAVE FILES IN IDE!
+
+
+	
+10. CHECK IF PROGRAM RUNS
 
 	py 'name of program'.py
 	
-10. CHECK FILE COMMIT STATUS
+11. CHECK FILE COMMIT STATUS
 
 	git status
 	
 	// returns what commits are pending 
 	
-11. PREP FILES FOR GIT STAGING WITH 'git add .' 
+12. PREP FILES FOR GIT STAGING WITH 'git add .' 
 
 	git add .
 	// preps files for changes
 	
 	
-12. COMMIT UPDATES
+13. COMMIT UPDATES
 
 	git commit -m'enter commit comment here'
 	
-13. CHECK STATUS
+14. CHECK STATUS
 	// ensures commit committed
 	
 	git status
