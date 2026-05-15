@@ -9,5 +9,4 @@ else:
     print ("If you aren't first, you're last!")
 
 for i in range(3):
-    
-    print (enumerate('dogs'))
+    print ('dogs')
