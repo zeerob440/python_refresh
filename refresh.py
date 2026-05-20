@@ -10,3 +10,11 @@ else:
 
 for i in range(3):
     print ('dogs')
+
+
+goose: str = True
+
+while goose: 
+    print ('Duck, duck, goose')
+    goose = False 
+print ('exiting loop.')
